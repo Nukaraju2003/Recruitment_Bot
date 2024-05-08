@@ -1,0 +1,9 @@
+streamlit
+PyPDF2
+google.generativeai
+python-dotenv
+gradio
+pytube
+openai==0.28
+moviepy
+
