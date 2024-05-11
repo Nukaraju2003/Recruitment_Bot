@@ -2,7 +2,7 @@ Please, have a look at this latest updated document
 https://www.canva.com/design/DAGEtq3eHgI/i9m9PLYzNZjuNygSN1MTPg/edit?utm_content=DAGEtq3eHgI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
 
-# 1. first round: Resume Screening App
+# 1. first round: Resume Screening 
 This app is built for employers looking for candidates against a particular job description. This app looks into outputing a x% percent similarity score given the resume of the candidate and a job description.
 
 ## Intuition:
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 
 
-# 1. second round: Resume Screening App
+# 1. second round: Automated flashcard generation
 ### Run web demo (streamlit)
 
 * Go to the root directory of the repository
