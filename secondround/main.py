@@ -5,7 +5,7 @@ from flashcard_generation import summarize_pdf
 # Streamlit interface
 
 def main():
-    st.title("Study assistant")
+    st.title("Second round")
               
     # Display flashcard generation interface
     st.header("Automatic Flashcard Generation")

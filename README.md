@@ -13,7 +13,7 @@ This app is built for employers looking for candidates against a particular job 
 <img src = "Demo\Workflow.png">
 
 ## Interface
-<img src = "Demo\Interface.png" height=400>
+<img src = "Demo\Interface_ats.png" height=400>
 
 ## Usage
 ### Run web demo (streamlit)
@@ -32,12 +32,20 @@ pip install -r requirements.txt
 
 
 # 2. second round: Automated flashcard generation
+
+## Interface
+<img src = "Demo\interface_fcg" height=400>  
+
+
 ### Run web demo (streamlit)
 
+'''
 * Go to the root directory of the repository
 * Additionally install streamlit: `pip install -r requirements.txt`
 * Run `streamlit run main.py`
 * Open the URL shown in the output
+
+'''
 
 
 
