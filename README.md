@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 
 
-# 1. second round: Automated flashcard generation
+# 2. second round: Automated flashcard generation
 ### Run web demo (streamlit)
 
 * Go to the root directory of the repository
@@ -41,3 +41,4 @@ pip install -r requirements.txt
 
 
 
+# 3. third round: Comprehensive Job Applicant Assessment System 
