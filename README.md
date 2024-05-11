@@ -15,6 +15,7 @@ This app is built for employers looking for candidates against a particular job 
 <img src = "Demo\Interface.png" height=400>
 
 ## Usage
+### Run web demo (streamlit)
 
 ```
 python -m venv venv
