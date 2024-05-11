@@ -3,9 +3,7 @@
 Please, have a look at this latest updated document
 https://www.canva.com/design/DAGEtq3eHgI/i9m9PLYzNZjuNygSN1MTPg/edit?utm_content=DAGEtq3eHgI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
 
-
-
-# 1. first round: Resume Screening 
+# 1. First round: Resume Screening 
 This app is built for employers looking for candidates against a particular job description. This app looks into outputing a x% percent similarity score given the resume of the candidate and a job description.
 
 ## Intuition:
@@ -28,12 +26,7 @@ pip install -r requirements.txt
 **Run**: ``` streamlit run app.py```
 
 
-
-
-
-
-
-# 2. second round: Automated flashcard generation
+# 2. Second round: Automated flashcard generation
 
 ## Interface
 <img src = "Demo\interface_fcg.png" height=400>  
@@ -48,9 +41,4 @@ pip install -r requirements.txt
  Open the URL shown in the output
 ```
 
-
-
-
-
-
-# 3. third round: Comprehensive Job Applicant Assessment System 
+# 3. Third round: Comprehensive Job Applicant Assessment System 
