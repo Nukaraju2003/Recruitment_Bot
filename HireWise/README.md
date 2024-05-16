@@ -1,13 +1,7 @@
-<img src="https://github.com/mihirs16/Project-Darwin/blob/master/static/Assets/Logo-w%20Name.svg" width=250>
 
----
 HireWise automates junior-level recruitment with an AI Interview Bot, automating resume screening, pre-screening MCQs, voice modulation analysis, and facial expression assessment for a comprehensive, bias-free candidate evaluation.
 <br>
 <br>
-![](https://img.shields.io/github/stars/mihirs16/Project-Darwin?style=for-the-badge)
-![](https://img.shields.io/github/forks/mihirs16/Project-Darwin?color=green&style=for-the-badge)
-<br><br>
-Project Demo Video: [Introducing - Project Darwin | By Team Blueprint](https://youtu.be/dAfU6YDgf8w)<br><br>
 
 ## Built With
 | Software | Version |
@@ -46,9 +40,17 @@ Project Demo Video: [Introducing - Project Darwin | By Team Blueprint](https://y
 ```
 git clone https://github.com/Nukaraju2003/Recruitment_Bot/tree/master/Main
 ```
+* Creating a virtual environment with given python version
+```
+python -m venv venv
+```
+* Activating the virtual environment
+```
+venv\Scripts\activate
+```
 * Now install all required libraries through requirements.txt
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 * Now run the Flask app `app.py`
 ```
