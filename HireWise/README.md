@@ -1,7 +1,8 @@
 <img src="https://github.com/mihirs16/Project-Darwin/blob/master/static/Assets/Logo-w%20Name.svg" width=250>
 
 ---
-HireWise automates junior-level recruitment with an AI Interview Bot, automating resume screening, pre-screening MCQs, voice modulation analysis, and facial expression assessment for a comprehensive, bias-free candidate evaluation.<br>
+HireWise automates junior-level recruitment with an AI Interview Bot, automating resume screening, pre-screening MCQs, voice modulation analysis, and facial expression assessment for a comprehensive, bias-free candidate evaluation.
+<br>
 <br>
 ![](https://img.shields.io/github/stars/mihirs16/Project-Darwin?style=for-the-badge)
 ![](https://img.shields.io/github/forks/mihirs16/Project-Darwin?color=green&style=for-the-badge)
