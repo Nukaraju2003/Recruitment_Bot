@@ -1,5 +1,4 @@
 
----
 HireWise automates junior-level recruitment with an AI Interview Bot, automating resume screening, pre-screening MCQs, voice modulation analysis, and facial expression assessment for a comprehensive, bias-free candidate evaluation.
 <br>
 <br>
