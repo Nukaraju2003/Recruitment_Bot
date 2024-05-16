@@ -43,7 +43,7 @@ Project Demo Video: [Introducing - Project Darwin | By Team Blueprint](https://y
 
 * Clone the repository.
 ```
-git clone 
+git clone https://github.com/Nukaraju2003/Recruitment_Bot/tree/master/Main
 ```
 * Now install all required libraries through requirements.txt
 ```
