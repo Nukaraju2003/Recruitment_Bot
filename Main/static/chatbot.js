@@ -1,6 +1,5 @@
 questions = [
     "Let's start with your name. What shall I call you?",
-    "Where shall we contact you? Please provide your business email-id.",
     "We would like to know more about your work. Please mention your GitHub ID. (e.g. jondoe11)",
     "It's great to be social and part of a community! Let us know your Twitter handle. (e.g. @jondoe)",
     "This job requires past experience. How many years of experience have you had in this industry? (Answer in no. of years - e.g. 2)",
@@ -16,7 +15,7 @@ var _test;
 var _score;
 
 function greet() {
-    botMessage("Hey! I'm Darwin, and I'm looking forward to know more about you!");
+    botMessage("Hey! I'm HireBot, and I'm looking forward to know more about you!");
 }
 
 function botMessage (msg) {

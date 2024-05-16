@@ -14,7 +14,6 @@ def homepage():
 def darwin():
     return flask.render_template('chatbot.html')
 
-
 @app.route('/admin', methods=['GET', 'POST'])
 def admin():
     return flask.render_template('admin_login.html')
