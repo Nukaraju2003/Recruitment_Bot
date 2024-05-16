@@ -10,7 +10,7 @@ app = flask.Flask(__name__)
 def homepage():
     return flask.render_template('homepage.html')
 
-@app.route('/darwin/1', methods=['GET'])
+@app.route('/bot/1', methods=['GET'])
 def darwin():
     return flask.render_template('chatbot.html')
 
