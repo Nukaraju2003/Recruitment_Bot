@@ -51,7 +51,7 @@ git clone https://github.com/Nukaraju2003/Recruitment_Bot/tree/master/Main
 python -m venv venv
 ```
 *Activating the virtual environment
-
+```
 venv\Scripts\activate
 ```
 * Now install all required libraries through requirements.txt
