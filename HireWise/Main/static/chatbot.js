@@ -16,7 +16,7 @@ var _test;
 var _score;
 
 function greet() {
-    botMessage("Hey! I'm Darwin, and I'm looking forward to know more about you!");
+    botMessage("Hey! I'm HireBot, and I'm looking forward to know more about you!");
 }
 
 function botMessage (msg) {
