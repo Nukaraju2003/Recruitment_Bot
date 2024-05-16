@@ -46,9 +46,17 @@ Project Demo Video: [Introducing - Project Darwin | By Team Blueprint](https://y
 ```
 git clone https://github.com/Nukaraju2003/Recruitment_Bot/tree/master/Main
 ```
+* Creating a virtual environment with given python version
+
+python -m venv venv
+```
+*Activating the virtual environment
+
+venv\Scripts\activate
+```
 * Now install all required libraries through requirements.txt
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 * Now run the Flask app `app.py`
 ```
