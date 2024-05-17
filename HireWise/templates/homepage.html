@@ -18,15 +18,21 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='page.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='homepage.css') }}">
     <!-- Custom Js -->
-    <script src="{{ url_for('static', filename='allJobs_home.js') }}"></script>    
+    <script src="{{ url_for('static', filename='allJobs_home.js') }}"></script> 
+    <style>.button {
+        font-weight:800;
+        color:#1971C2;
+        font-size:24px;
+        text-decoration:underlined;
+    }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" id="mainNav">
         <div class="container">
-
-            <img src="{{ url_for('static', filename='Assets/') }}" alt="logo"/>
             <div class="collapse navbar-collapse" id="navbarResponsive">
+                <h2 style="color:#1971c2;font-weight:600">HireWise</h2>
                 <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#darwin-mid-head"><span style="color: #1971c2; font-size: x-large;">Why Us?</span></a>
@@ -50,8 +56,10 @@
                 <div style="padding-top: 30%; width: 600px;">
                     <h1 id="darwin-way-head">HireWise</h1>
                     <span id="darwin-way">
-                        A smarter recruitment bot
+                        An innovative solution that utilizes AI to revolutionize the recruitment process for junior-level positions. It automates resume screening, pre-screening assessments, voice modulation analysis, and facial expression evaluation, ensuring a faster, more efficient, and unbiased candidate selection process.
                     </span>
+                    <br><br>
+                    <a class="button" href="jobs">Explore Jobs ></a>
                 </div>
             </div>
         </div>
@@ -66,14 +74,14 @@
                 <div style="padding-top: 15%; width: 400px; font-size: large; text-align: center;">
                     <h1 id="darwin-mid-head">Why us?</h1>
                     <span id="why-us">
-                        A smarter recruitment bot                    
+                        Choose us for our unparalleled expertise in AI-driven recruitment solutions. With HireWise, experience faster, unbiased candidate selection, saving time and resources while ensuring top-quality hires.
                     </span>
                 </div>
             </div>
             <div class="col-4" id="midsection-male" style="padding-left: 10%;">
                 <img height="500px" src="{{ url_for('static', filename='Assets/Home_page_3.svg') }}">
             </div>
-        </div>
+        </div>[]]]]]0
     </div>
     <!-- Careersection -->
     <div class="fluid-container mid-section lowsection">
@@ -92,7 +100,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Video Ad -->
         <div class="container p-3" style="margin-top: 100px; position: relative;">
             <img src="{{ url_for('static', filename='Assets/video_border.svg') }}" style="margin-top: 15px; width:100%; height: auto;">

@@ -1,8 +1,0 @@
-/venv/
-/.env
-.DS_Store
-*.pyc
-/__pycache__/
-/data_src/resume/
-test_app.py
-.vscode/

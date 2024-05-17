@@ -13,12 +13,10 @@ import google.generativeai as genai
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
-
 def get_gemini_response(input):
     model = genai.GenerativeModel("gemini-pro")
     response = model.generate_content(input)
     return response.text
-
 
 def input_pdf_text(uploaded_files):
     reader = pdf.PdfReader(uploaded_files)
@@ -51,7 +49,6 @@ I want the below response in 3 paragraphs format
 "recommend courses to learn and resources":""}}
 """
 
-
 def compare(resume_texts, JD_text, embedding_method='HuggingFace-BERT'):
     if embedding_method == 'Gemini':
         response = get_gemini_response(input_prompt.format(text='\n'.join(resume_texts), JD=JD_text))
@@ -66,7 +63,6 @@ def compare(resume_texts, JD_text, embedding_method='HuggingFace-BERT'):
 
     cos_scores = cosine(resume_embeddings, JD_embeddings)
     return cos_scores
-
 
 ## streamlit app
 st.title("Smart Applicant Tracking System")

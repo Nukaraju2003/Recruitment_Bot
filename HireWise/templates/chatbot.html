@@ -62,23 +62,26 @@
     <div class="container" id="window">
         <div class="container" id="chatwindow">
             <div id="dialogueTemplate" style="display: none;">
-                <div class="row mt-2 bot_dialogue">
-                    <div class="col-auto dp" style="height: 100%;">
-                        <img src="{{ url_for('static', filename='Assets/ChatBot-Full.svg') }}" height="75px" width="75px">
-                    </div>
-                    <div class="col-auto pt-4">
-                        <div class="row no-gutters">
-                            <div class="col-auto">
-                                <img src="{{ url_for('static', filename='Assets/bot_bubble.svg') }}" height="15px" width="15px">
-                            </div>
-                            <div class="col-auto">
-                                <div class="dialogue bot">
-                                    Hey what's up! I am HireBot, and I will be handling your interview today! Isn't it just a lovely day? What would you indulge yourself in on such a beautiful day?
-                                </div>
-                            </div>
-                        </div>
+                <div class="row mt-2 bot_dialogue" id="upload-resume">
+        <div class="col-auto dp" style="height: 100%;">
+            <img src="{{ url_for('static', filename='Assets/ChatBot-Full.svg') }}" height="75px" width="75px">
+        </div>
+        <div class="col-auto pt-4">
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <img src="{{ url_for('static', filename='Assets/bot_bubble.svg') }}" height="15px" width="15px">
+                </div>
+                <div class="col-auto">
+                    <div class="dialogue bot">
+                        Please upload your resume.
+                        <input type="file" id="resumeFile" accept=".pdf" style="display: none;" onchange="handleResumeUpload(this)">
+                        <label for="resumeFile" class="btn btn-primary">Choose File</label>
+                        <span id="resumeFileName"></span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
                 <div class="row mt-2 justify-content-end user_dialogue">
                     <div class="col-auto pt-4">
                         <div class="row no-gutters">
