@@ -5,7 +5,7 @@ questions = [
 responses = []
 
 function greet() {
-    botMessage("Hey! I'm HireBot, and I'm looking forward to know more about you!");
+    botMessage("Hey! I'm HireeeeeeeBot, and I'm looking forward to know more about you!");
 }
 
 function botMessage(msg) {
